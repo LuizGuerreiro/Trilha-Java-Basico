@@ -36,3 +36,10 @@ classDiagram
     iPhone --> NavegadorInternet
 ```
 
+## Telas de exemplo:
+
+<img src="./assets/tela01.png">
+<img src="./assets/tela02.png">
+<img src="./assets/tela03.png">
+<img src="./assets/tela04.png">
+<img src="./assets/tela05.png">

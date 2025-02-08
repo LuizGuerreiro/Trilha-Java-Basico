@@ -6,13 +6,24 @@ public class iPhone {
         var option = -1;
 
         do {
+            System.out.println();
+            System.out.println();
+            System.out.println(">>>>>>>>>>> iPhone <<<<<<<<<<<");
             System.out.println("Escolha uma opção:");
             System.out.println("1 - Reprodutor de música");
             System.out.println("2 - Telefone");
             System.out.println("3 - Navegador de internet");
             System.out.println("0 - Sair");
+            System.out.print("Opção: ");
 
-            option = scanner.nextInt();
+            try {
+                option = scanner.nextInt();
+            } catch (Exception e) {
+                scanner.nextLine();
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                System.out.println("Deve ser informado um número!");
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
 
             switch (option) {
                 case 1:
@@ -28,10 +39,10 @@ public class iPhone {
                     option = -1;
                     break;
                 case 0:
-                    System.out.println("Desligando...");
+                    System.out.println(">>>>>>> Desligando... <<<<<<<");
                     break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("====== Opção inválida! ======");
                     break;
             }
         } while (option != 0);
@@ -44,13 +55,24 @@ public class iPhone {
         var option = -1;
     
         do {
+            System.out.println();
+            System.out.println();
+            System.out.println(">>>>>>>>>>> Música <<<<<<<<<<<");
             System.out.println("Escolha uma opção:");
             System.out.println("1 - Reproduzir música");
             System.out.println("2 - Pausar");
             System.out.println("3 - Escolher música");
             System.out.println("0 - Voltar");
+            System.out.print("Opção: ");
     
-            option = scanner.nextInt();
+            try {
+                option = scanner.nextInt();
+            } catch (Exception e) {
+                scanner.nextLine();
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                System.out.println("Deve ser informado um número!");
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
     
             switch (option) {
                 case 1:
@@ -65,7 +87,7 @@ public class iPhone {
                 case 0:
                     break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("====== Opção inválida! ======");
                     break;
             }
         } while (option != 0);
@@ -75,13 +97,24 @@ public class iPhone {
         var option = -1;
     
         do {
+            System.out.println();
+            System.out.println();
+            System.out.println(">>>>>>>>>> Telefone <<<<<<<<<<");
             System.out.println("Escolha uma opção:");
             System.out.println("1 - Ligar");
             System.out.println("2 - Atender ligação");
             System.out.println("3 - Ouvir correio de voz");
             System.out.println("0 - Voltar");
+            System.out.print("Opção: ");
     
-            option = scanner.nextInt();
+            try {
+                option = scanner.nextInt();
+            } catch (Exception e) {
+                scanner.nextLine();
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                System.out.println("Deve ser informado um número!");
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
     
             switch (option) {
                 case 1:
@@ -96,7 +129,7 @@ public class iPhone {
                 case 0:
                     break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("====== Opção inválida! ======");
                     break;
             }
         } while (option != 0);
@@ -106,13 +139,24 @@ public class iPhone {
         var option = -1;
         
         do {
+            System.out.println();
+            System.out.println();
+            System.out.println(">>>>>>>>>> Internet <<<<<<<<<<");
             System.out.println("Escolha uma opção:");
             System.out.println("1 - Abrir nova aba");
             System.out.println("2 - Exibir página");
             System.out.println("3 - Atualizar página");
             System.out.println("0 - Voltar");
+            System.out.print("Opção: ");
         
-            option = scanner.nextInt();
+            try {
+                option = scanner.nextInt();
+            } catch (Exception e) {
+                scanner.nextLine();
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                System.out.println("Deve ser informado um número!");
+                System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
         
             switch (option) {
                 case 1:
@@ -127,7 +171,7 @@ public class iPhone {
                 case 0:
                     break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("====== Opção inválida! ======");
                     break;
             }
         } while (option != 0);
