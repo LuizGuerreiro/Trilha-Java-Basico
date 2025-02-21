@@ -14,3 +14,7 @@ Nesse desafio são treinados controle de fluxo, como 'if' e 'for', e também tra
 ## 03 - Desafio POO
 
 Desafio para treinar orientação a objetos com JAVA e modelagem UML.
+
+## 04 - Desafio Banco digital
+
+Treino de POO e Collections JAVA, simulando contas e operações bancárias.
